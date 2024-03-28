@@ -1,0 +1,62 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  background-color: rgb(237, 242, 247);
+  
+}
+
+.container .box{
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #faf8f8;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow:
+  1.7px 1.7px 1.9px rgba(0, 0, 0, 0.041),
+  5.2px 5.1px 4.4px rgba(0, 0, 0, 0.06),
+  11.3px 11px 7.8px rgba(0, 0, 0, 0.074),
+  21px 20.4px 13px rgba(0, 0, 0, 0.086),
+  36.6px 35.6px 21.4px rgba(0, 0, 0, 0.1),
+  63.4px 61.8px 37.4px rgba(0, 0, 0, 0.119),
+  117px 114px 81px rgba(0, 0, 0, 0.16)
+;
+}
+.container .box .el-avatar{
+  display: block;
+}
+
+.container .box .el-avatar img{
+  border-radius: 50% !important;
+}
+
+.box .name{
+  padding-top: 20px;
+  font-size: 24px;
+  line-height: 1.25;
+  font-weight: 500;
+}
+
+.box .name p{
+  font-size: 20px;
+  line-height: 24px;
+  font-style: normal;
+  font-weight: lighter;
+}
+.box .name span{
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.box .follow{
+  
+}
+
+.box .follow p{
+  display: inline-block;
+  padding-right: 30px;
+}
