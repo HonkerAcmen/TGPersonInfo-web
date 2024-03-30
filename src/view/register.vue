@@ -1,0 +1,3 @@
+<template>
+    reg
+</template>
