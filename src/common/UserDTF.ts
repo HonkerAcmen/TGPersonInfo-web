@@ -1,6 +1,6 @@
 
 export interface UserInfo{
-    UserID: number
+    UserID: number 
     UserName: string
     UserSign: string
     Following: number

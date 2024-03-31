@@ -1,11 +1,10 @@
 body {
     margin: 0;
     padding: 0;
-    /* filter: blur(5px);  */
     background-image: url('../img/bgis.jpg');
+    /* filter: blur(5px);  */
     background-size:cover;
     position: relative;
-    z-index: -1; /* 将背景图层次设为最低 */
 }
 
 .login {
@@ -13,10 +12,10 @@ body {
     width: 500px;
     height: 400px;
     top: 100px;
-    left: 40%;
-    /* transform: translate(-50%, -50%); */
+    left: 50%;
+    transform: translate(-50%, -20%);
     text-align: center;
-    background-color: #e3e3e3;
+    background-color: #eeeaea;
 }
 
 .login .title {

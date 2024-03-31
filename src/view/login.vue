@@ -6,14 +6,14 @@
                 <br>
                 <el-input v-model="password" style="width: 240px" type="password" placeholder="请输入密码" show-password />
                 <br>
-                <el-button type="primary" plain>登录</el-button>
-                <el-button type="primary" plain>注册</el-button>
+                <el-button type="primary" plain @click="">登录</el-button>
+                <el-button type="primary" plain @click="GotoRegisterPage">注册</el-button>
         </div>
 </template>
 
 <script lang="ts" setup>
 import { ElButton } from 'element-plus'
 import useLogin from '@/hooks/login'
-
+import {GotoRegisterPage} from '@/common/authFunc'
 const {account, password} = useLogin()
 </script>
