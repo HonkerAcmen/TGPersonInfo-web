@@ -49,7 +49,7 @@ router.beforeEach((to, from, next) => {
         isLogin = false
     }
 
-    if (isLogin || to.path === '/login' || to.path === 'register'){
+    if (isLogin || to.path === '/login' || to.path === '/register'){
         next()
     }else{
         next('/login')
