@@ -9,8 +9,8 @@ body {
 
 .login {
     position: absolute;
-    width: 500px;
-    height: 400px;
+    width: 350px;
+    height: 300px;
     top: 100px;
     left: 50%;
     transform: translate(-50%, -20%);
